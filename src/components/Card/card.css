@@ -1,0 +1,23 @@
+.title {
+    color: white;
+    line-height: 35px;
+    padding-left: 10px;
+}
+
+.img-logo {
+    border-radius: 40px;
+    height: 35px;
+}
+
+.metadata {
+    display: flex;
+    margin-top: 10px;
+}
+
+.views {
+    font-size: 10px;
+}
+
+.views > span {
+    white-space: pre-line;
+}

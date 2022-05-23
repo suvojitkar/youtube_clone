@@ -1,0 +1,12 @@
+.sidebar {
+    position: fixed;
+    width: var(--sidebar-width);
+    height: 100%;
+    background-color: #212121;
+}
+
+.main-content {
+    width: calc(100% - var(--sidebar-width));
+    margin-left: calc(var(--sidebar-width) + 30px);
+    padding-top: calc(var(--navbar-height) + 10px);
+}

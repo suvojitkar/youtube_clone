@@ -1,0 +1,33 @@
+.sideMenu > li {
+    color: white;
+    padding: 10px;
+}
+
+.fa-solid {
+    padding-right: 10px;
+}
+
+.active {
+    background-color: grey;
+}
+
+li:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.brand {
+    color: white;
+    display: flex;
+    width: calc(var(--sidebar-width) - 20px);
+    justify-content: space-around;
+}
+
+.fa-bars, .fa-youtube{
+    line-height: var(--navbar-height);
+}
+
+.fa-youtube {
+    font-size: 30px;
+}
+

@@ -1,5 +1,25 @@
 .navbar {
-    height: 50px;
-    width: 100%;
-    background-color: green;
+    height: var(--navbar-height);
+    width: calc(100% - var(--sidebar-width));
+    background-color: #212121;
+    position: fixed;
+    left: var(--sidebar-width);
+    display: flex;
+    align-items: center;
+}
+
+.profilePic {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.icon {
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.profile-meta {
+    height: var(--navbar-height);
 }

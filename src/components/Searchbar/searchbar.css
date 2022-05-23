@@ -1,0 +1,31 @@
+.navbarElem > input {
+    background-color: black;
+    border: none;
+    height: 40px;
+    width: 500px;
+}
+
+.navbarElem > input::placeholder {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.navbarElem > input:focus {
+    outline: none;
+    border: solid 1px #1C62B9;
+}
+
+.navbarElem {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.srch {
+    background-color: #323232;
+    color: white;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -5,7 +5,7 @@ const ProtectedRoutes = ({ children }) => {
     if (!auth?.user) {
         return <Navigate to="/" />;
     }
-    return <div>{ children }</div>      
+    return <>{children}</>   
 };
 
 export default ProtectedRoutes;
